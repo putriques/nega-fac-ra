@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Loja Nega Facêra – Roupas, Acessórios e Maquiagens</title>
+<meta name="description" content="Loja Nega Facêra: roupas femininas, moda jeans, cosméticos, perfumaria e Natura. Aqui tem o que você procura!">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#inicio" class="logo">Nega <span>Facêra</span></a>
+    <nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul id="menu">
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#horarios">Horários</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><button class="theme-btn" id="themeBtn" aria-label="Alternar tema">🌓</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div>
+        <span class="tag">✨ Roupas • Acessórios • Maquiagens</span>
+        <h1>Aqui tem o que <em>você procura!</em></h1>
+        <p>Moda feminina, peças jeans, cosméticos, perfumaria e Natura num só lugar. Venha conhecer a Loja Nega Facêra.</p>
+        <div class="cta">
+          <a class="btn btn-primary" id="waHero" href="#" target="_blank" rel="noopener"><img class="wa-icon" src="whatsapp.png" alt="" width="22" height="22"> Chamar no WhatsApp</a>
+          <a class="btn btn-outline" href="#produtos">Ver produtos</a>
+        </div>
+        <div class="status" id="status"><span class="dot"></span><span id="statusText">Verificando horário…</span></div>
+      </div>
+      <div class="hero-card">
+        <div class="big">👗💄</div>
+        <h3>Seu estilo, do seu jeito</h3>
+        <p>Looks, beleza e cuidados com o cabelo e a pele, com atendimento de perto.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="produtos">
+    <div class="container">
+      <div class="title reveal">
+        <h2>Nossos Produtos</h2>
+        <p>Tudo para você se sentir bem, da cabeça aos pés.</p>
+      </div>
+      <div class="grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <div class="container">
+      <div class="title reveal">
+        <h2>Galeria</h2>
+        <p>Conheça um pouco da nossa loja.</p>
+      </div>
+      <div class="gallery">
+      <figure class="reveal" tabindex="0"><img src="fotos/roupas-e-manequim.jpg" alt="Interior da loja com araras de roupas e manequim com macacão estampado" loading="lazy"><figcaption>Roupas e araras</figcaption></figure>
+      <figure class="reveal" tabindex="0"><img src="fotos/vista-da-loja.jpg" alt="Vista geral do interior da loja Nega Facêra" loading="lazy"><figcaption>Vista geral da loja</figcaption></figure>
+      <figure class="reveal" tabindex="0"><img src="fotos/balcao.jpg" alt="Balcão com estampa de flores e parede com o nome Nega Facêra" loading="lazy"><figcaption>Balcão e parede da loja</figcaption></figure>
+      <figure class="reveal" tabindex="0"><img src="fotos/cosmeticos-e-acessorios.jpg" alt="Prateleiras com cosméticos, perfumaria, bolsas e acessórios" loading="lazy"><figcaption>Cosméticos e acessórios</figcaption></figure>
+      <figure class="reveal" tabindex="0"><img src="fotos/bolsas-e-bones.jpg" alt="Prateleiras com bolsas, bonés e pochetes" loading="lazy"><figcaption>Bolsas, bonés e acessórios</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="horarios">
+    <div class="container info">
+      <div class="panel reveal">
+        <h2>Horário de funcionamento</h2>
+        <ul class="hours" id="hours">
+          <li data-days="1,2,3,4,5"><span>Segunda a sexta</span><strong>11h às 18h30</strong></li>
+          <li data-days="6"><span>Sábado</span><strong>11h às 18h</strong></li>
+          <li data-days="0"><span>Domingo</span><strong>Fechado</strong></li>
+        </ul>
+      </div>
+      <div class="panel reveal" id="contato">
+        <h2>Fale com a gente</h2>
+        <ul class="contact-list">
+          <li><img class="wa-icon" src="whatsapp.png" alt="" width="20" height="20"> WhatsApp: <a id="waText" href="#" target="_blank" rel="noopener">(41) 99986-1075</a></li>
+          <li><img class="wa-icon" src="instagram.png" alt="" width="20" height="20"> Instagram: <a href="https://instagram.com/loja.nega.facera" target="_blank" rel="noopener">@loja.nega.facera</a></li>
+        </ul>
+        <a class="btn btn-primary" id="waPanel" href="#" target="_blank" rel="noopener"><img class="wa-icon" src="whatsapp.png" alt="" width="22" height="22"> Enviar mensagem</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="banner reveal">
+        <h2>Vem pra Nega Facêra!</h2>
+        <p>Peça já seu look ou seu produto favorito pelo WhatsApp.</p>
+        <a class="btn" id="waBanner" href="#" target="_blank" rel="noopener"><img class="wa-icon" src="whatsapp.png" alt="" width="22" height="22"> Falar agora</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="year"></span> Loja Nega Facêra. Todos os direitos reservados.</div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-label="Foto ampliada">
+  <button class="lb-close" aria-label="Fechar">✕</button>
+  <button class="lb-nav lb-prev" aria-label="Foto anterior">‹</button>
+  <img alt="">
+  <button class="lb-nav lb-next" aria-label="Próxima foto">›</button>
+</div>
+
+<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="whatsapp.png" alt="" width="64" height="64"></a>
+
+<script src="script.js" defer></script>
+</body>
+</html>
